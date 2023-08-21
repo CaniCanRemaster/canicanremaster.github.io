@@ -1,0 +1,35 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+.nav-item{
+    cursor: pointer;
+}
+
+.custom-nav{
+    position: fixed;
+    background-color: #303030;
+    z-index: 1000;
+    width: 100%;
+}
+
+#main{
+    padding-top: 5rem;
+}
+
+.container-cards {
+    text-align: center;
+    align-items: center;
+}
+
+.custom-card {
+    width: 15rem;
+    height: 25rem;
+    margin-left: 3rem;
+    float: left;
+}
