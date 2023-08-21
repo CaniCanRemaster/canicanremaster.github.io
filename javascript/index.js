@@ -11,6 +11,8 @@ async function start() {
     let posts = document.getElementById("posts");
     let participations = document.getElementById("participations");
 
+    home.classList.add("active");
+
     function deleteActiveNavOption(){
         home.classList.remove("active");
         posts.classList.remove("active");

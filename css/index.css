@@ -7,19 +7,20 @@
     border-radius: 5px;
 }
 
-.nav-item{
-    cursor: pointer;
+.nav-link {
+    font-size: xx-small;
 }
 
-.custom-nav{
+.nav-item {
+    cursor: pointer;
+    text-align: center;
+}
+
+.custom-nav {
     position: fixed;
     background-color: #303030;
     z-index: 1000;
     width: 100%;
-}
-
-#main{
-    padding: 10rem;
 }
 
 .container-cards {
@@ -30,6 +31,18 @@
 .custom-card {
     width: 15rem;
     height: 25rem;
-    margin-left: 3rem;
+    margin: 2rem;
     float: left;
+}
+
+@media screen and (max-width: 400px) {
+    #main {
+        padding-top: 5rem;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    #main {
+        padding-top: 5rem;
+    }
 }
